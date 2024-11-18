@@ -1,0 +1,29 @@
+======
+Клиенты (Clients):
+
+ID (INTEGER PRIMARY KEY)
+Имя (Name)
+Возраст (Age)
+Пол (Gender)
+
+======
+Абонементы (Memberships):
+
+ID (INTEGER PRIMARY KEY)
+Тип абонемента (Type)
+Цена (Price)
+
+======
+Тренеры (Trainers):
+
+ID (INTEGER PRIMARY KEY)
+Имя (Name)
+Специализация (Specialization)
+
+======
+Посещения (Visits):
+
+ID (INTEGER PRIMARY KEY)
+ID клиента (ClientID) (FOREIGN KEY -> Clients.ID)
+ID тренера (TrainerID) (FOREIGN KEY -> Trainers.ID)
+Дата посещения (VisitDate)
