@@ -1,0 +1,7 @@
+<h1>Тренировки</h1>
+<ul>
+    {% for session in sessions %}
+    <li>{{ session.title }} - {{ session.date }} (Тренер: {{ session.trainer.name }})</li>
+    {% endfor %}
+</ul>
+<a href="{% url 'add_training_session' %}">Добавить тренировку</a>
