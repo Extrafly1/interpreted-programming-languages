@@ -9,7 +9,7 @@
 алфавитном порядке.
 
 вывод программы для файла 11 - 1.csv с заданной оценкой 10.0 и временем 30 минут
-
+```
 PS C:\Users\Extrafly\Desktop\15> & C:/Users/Extrafly/AppData/Local/Programs/Python/Python312/python.exe c:/Users/Extrafly/Desktop/15/lr15.py
 Количество участников: 6
 Список участников:
@@ -19,11 +19,12 @@ PS C:\Users\Extrafly\Desktop\15> & C:/Users/Extrafly/AppData/Local/Programs/Pyth
 Трошина Елена
 Цыганенко Марина
 колинько наталья
-
+```
 вывод программы для файла 11 - 2.csv с заданной оценкой 10.0 и временем 30 минут
-
+```
 PS C:\Users\Extrafly\Desktop\15> & C:/Users/Extrafly/AppData/Local/Programs/Python/Python312/python.exe c:/Users/Extrafly/Desktop/15/lr15.py
 Количество участников: 2
 Список участников:
 Заволокина Ирина
 Сайкина Ольга
+```
