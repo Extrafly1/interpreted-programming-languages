@@ -12,7 +12,7 @@ rooftop: 2
 surface: 2
 ```
 вывод программы для 11-2.osm
-````
+```
 c:/Users/Extrafly/Desktop/14/lr14.py
 Количество парковок каждого типа:
 multi-storey: 2
